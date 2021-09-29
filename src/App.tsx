@@ -26,7 +26,9 @@ const App = () => {
         >
           Learn React
         </a>
-        <button type="button" onClick={handleBtnClick}>Increment</button>
+        <button type="button" onClick={handleBtnClick}>
+          Increment
+        </button>
       </header>
     </div>
   );
