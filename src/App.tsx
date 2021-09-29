@@ -1,14 +1,22 @@
-import React from 'react';
+import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [counter, setCounter] = useState(0);
+
+  const handleBtnClick = () => {
+    setCounter(counter + 1);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit
+          <code>{counter}</code>
+          and save to reload.
         </p>
         <a
           className="App-link"
@@ -18,9 +26,10 @@ function App() {
         >
           Learn React
         </a>
+        <button type="button" onClick={handleBtnClick}>Increment</button>
       </header>
     </div>
   );
-}
+};
 
 export default App;
