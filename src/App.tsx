@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import './App.css';
 import Child from './Child';
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
     <div>
       Heloooo

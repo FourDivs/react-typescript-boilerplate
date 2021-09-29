@@ -5,7 +5,7 @@ interface Props {
   email: string;
 }
 
-const Child = ({ name, age, email }: Props) => {
+const Child = ({ name, age, email }: Props): JSX.Element => {
   return <div>Child: {name + ' - ' + age + ' - ' + email}</div>;
 };
 
