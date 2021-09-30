@@ -1,4 +1,3 @@
-import './App.css';
 import Child from './Child';
 
 const App = (): JSX.Element => {

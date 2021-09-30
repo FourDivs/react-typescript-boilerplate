@@ -1,6 +1,6 @@
-type name_choice = 'first' | 'last';
+type NameChoice = 'first' | 'last';
 interface Props {
-  name: name_choice;
+  name: NameChoice;
   age: number;
   email: string;
 }
