@@ -1,6 +1,6 @@
 import Child from './Child';
 
-const App = (): JSX.Element => {
+const App = () => {
   return (
     <div>
       Heloooo

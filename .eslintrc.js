@@ -15,7 +15,6 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript',
     'airbnb-typescript',
-    'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -34,5 +33,6 @@ module.exports = {
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
     'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 };
